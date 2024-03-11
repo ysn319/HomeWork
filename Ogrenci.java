@@ -54,7 +54,7 @@ public class Ogrenci {
         }
 
         public void check(double gano){
-                if (gano>4){
+                if (gano<0 || gano>4){
                         throw  new IllegalArgumentException("Hatali girdiniz");
                 }
         }
